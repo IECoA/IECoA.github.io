@@ -6,3 +6,19 @@
   color: gray;
   font-size: 0.7rem;
 }
+
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-areas: "ar1 ar1 ar2 ar2" "ar3 ar3 ar3 ar4" ". . . .";
+}
+
+.ar3 { grid-area: ar3; }
+
+.ar4 { grid-area: ar4; }
+
+.ar1 { grid-area: ar1; }
+
+.ar2 { grid-area: ar2; }
