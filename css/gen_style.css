@@ -35,3 +35,8 @@ body{
 .ar1 { grid-area: ar1; }
 
 .ar2 { grid-area: ar2; }
+
+.copy_2W {
+  display: none;
+  opacity:0
+}
